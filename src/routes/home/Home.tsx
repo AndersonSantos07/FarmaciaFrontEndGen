@@ -1,14 +1,10 @@
-import React from 'react'
-import NavBar from '../components/navBar/NavBar'
-import Footer from '../components/footer/Footer'
-import BannerHome from '../assets/bannerHome.svg'
+
+import BannerHome from '../../assets/bannerHome.svg'
 
 function Home() {
     return (
 
         <>
-
-            <NavBar />
 
             <main className='flex items-center justify-center gap-40 bg-cyan-400 h-screen'>
 
@@ -24,8 +20,6 @@ function Home() {
                 </section>
 
             </main>
-
-            <Footer />
 
         </>
 

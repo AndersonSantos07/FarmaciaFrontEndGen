@@ -1,12 +1,16 @@
-import React from 'react'
-import Home from './routes/Home'
+import React from 'react';
+import './App.css';
+import Home from './routes/home/Home';
+import NavBar from './components/navBar/NavBar';
+import Footer from './components/footer/Footer';
 
-export default function App() {
+function App() {
   return (
     <>
-
-      <Home />
-
+    <NavBar/>
+    <Home/>
+    <Footer/>
     </>
-  )
+);
 }
+export default App;
